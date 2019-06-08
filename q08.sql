@@ -4,4 +4,4 @@
 ## (columna c23) que este ordenada por año. 
 ##
 
-
+SELECT strftime('%Y',c23) as 'YEAR', avg(c21) FROM tbl2 GROUP BY strftime('%Y',c23);
