@@ -5,3 +5,4 @@
 ## a 400.
 ##
 
+SELECT K0, AVG(c13) FROM tbl1 WHERE c13 > 400 GROUP BY K0;
